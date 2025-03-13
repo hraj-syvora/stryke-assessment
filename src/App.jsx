@@ -15,7 +15,7 @@ function App() {
             <Route path="/options" element={<Options />} />
             <Route path="/rewards" element={<Rewards/>}/>
             <Route path="/analytics" element={<Analytics/>}/>
-            <Route path="/lp-positions" elements={<LPPositions/>}/>
+            <Route path="/lp-positions" element={<LPPositions/>}/>
         </Routes>
       </BrowserRouter>
     </WalletProvider>
